@@ -1,0 +1,60 @@
+body {
+background-color: rgb(192, 77, 115);
+margin: 0;
+font-family: "Lucida Grande";
+}
+.container {
+width: 1170px;
+padding: 0 15px;
+margin: 0 auto;
+}
+li {
+list-style: none;
+}
+a {
+text-decoration: none;
+}
+header {
+background-color: #fd4d97f5;
+height: 60px;
+width: 100%;
+position:fixed;
+}
+.header-left {
+color: white;
+float: left;
+margin-top: 10px;
+font-size: 30px;
+font-family: "Comic Sans MS";
+}
+.header-right {
+float: right;
+}
+.header-right a {
+line-height: 65px;
+padding: 0 25px;
+color: white;
+display: block;
+}
+.Lokasi{
+background-color: rgb(192, 77, 115);
+}
+.Lokasi .isi .container{
+margin-left: 115px;
+margin-top: 70px;
+}
+.Lokasi .container h2{
+color: white;
+ }
+.Lokasi .row{
+color: white;
+}
+footer{
+margin-top: 5px;
+background-color: rgb(192, 77, 115);
+color: white;
+text-align: center;
+font-size: 20px;
+height:35px;
+}
+ 

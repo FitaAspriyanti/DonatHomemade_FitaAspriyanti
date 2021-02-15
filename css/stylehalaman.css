@@ -1,0 +1,156 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+body {
+    background-color: rgb(238, 130, 148);
+  font-family: "Lucida Grande";
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.top-wrapper {
+  height: 710px;
+  padding: 330px 0 100px 0;
+  background-image: url(../image/donat3.png);
+  background-size: cover;
+  color: #fd4d97f5;
+  text-align: center;
+}
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+.btn{
+    margin-top: 5px;
+    padding: 0 25px;
+}
+.btn-wrapper {
+  margin: 20px 0;
+}
+.btn-wrapper p {
+  margin: 10px 0;
+}
+.signup {
+  background-color: #239b76;
+}
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+.twitter {
+  background-color: #55acee;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  background-color: rgb(238, 130, 148);
+  height: 60px;
+  width: 100%;
+  position:fixed;
+}
+.header-left {
+    color: white;
+  float: left;
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: "Comic Sans MS";
+}
+.header-right {
+  float: right;
+}
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+footer{
+  margin-top: 5px;
+  background-color: rgb(192, 77, 115);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  height:35px;
+}
+.info{
+  margin-top: 50px;
+    text-align: center;
+}
+.info .container h1{
+    margin: 5px;
+}
+.info .container .row{
+  border-radius: 10px;
+    margin: -3px;
+}
+.info .isi .container.atas{
+    background-color: white;
+    margin-top: -35px;
+    padding-bottom: 37px;
+}
+.info .container h2{
+  color: rgb(185, 29, 76);  
+   margin-top: 10px;
+}
+.info .container h1{
+  color: rgb(185, 29, 76);  
+   margin-top: 10px;
+}
+.container.bawah{
+  text-align: center;
+}
+.informasi.isi{
+  background-image: url(../image/bgimg.png);
+ 
+}
+.container-info .row{
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 43px;
+  padding-bottom: 25px;
+}
+.Tentang{
+    background-color: rgb(192, 77, 115);
+}
+.Tentang .container h2{
+   color: white;
+}
+.Tentang .row{
+   color: white;
+   margin-top: 15px;
+}
